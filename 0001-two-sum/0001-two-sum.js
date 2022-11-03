@@ -20,8 +20,8 @@ var twoSum = function(nums, target) { // declaire varable "twoSum"
         for (var j = i + 1; j < nums.length; j++){ // next interger in array counting up
             var result = target === nums[i] + nums[j] // does the target number equal i & j
             
-            if (result){
-                return([i,j])
+            if (result){ // if the 2 array's = target
+                return([i,j]) // return array postions
             }
         
         }
